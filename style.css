@@ -63,7 +63,7 @@ box-sizing: border-box;
 /*nevigation bar*/
 nav{
     background: #fff;
-    height: 150px;
+    height: 190px;
     width: 100%;
     box-shadow: 0 5px 5px rgb(206, 161, 26);
     position:sticky;
@@ -129,23 +129,17 @@ nav ul li a:hover {
 }
 
 /*contact section*/
-.ma{
-   
-    
-    margin-left: 110%;
-    margin-top: -90%;
-    box-shadow: 0 5px 15px rgb(117, 117, 117);
- 
-    
-      }
 
-#contact-section{
 
-    margin-right: 100%;
-    width: 40%;
+/*#contact-section{
+
+    margin-left: 0%;
+    width: auto;
     margin-top: 10%;
     justify-content: center;
     height: 700px;
+   display: grid;
+    background: #0a0a0a;
    
    
 
@@ -175,8 +169,44 @@ font-size: 40px;
    
 }
 
+*/
+.contact-section{
+
+    height: auto;
+}
+.contair{
+    
+    background: #cfcec8;  
+    width: 30%; 
+    height:40%;
+    margin-left: 10%;
+   text-align: center;
+   margin-top: 10%;
+   margin-bottom: 20%;
+   border-radius: 10px;
+   border: 1px solid rgba(255,255,255,0.18) ;
+   box-shadow: 0 8px 32px 0 rgba(0,0,0.37) ;
+    
+}
+
+.map iframe{
+
+    margin-left: 45%;
+   width: 30%;
+   margin-top: -4000px;
+   height: 90;
+  
+   
+
+}
+
+.ma1{
+    margin-top: -20%;
+    height: 100%;
+}
+
 .contact-form i.fa{
-    font-size: 22px;
+    font-size: 20px;
     padding: 3%;
     background-color: none;
     cursor: pointer;
@@ -193,16 +223,25 @@ font-size: 40px;
   color: #3a3737;
 }
 
-.container{
-    
-    text-align: center;   
-    box-shadow: 0 5px 15px rgb(117, 117, 117);
-     top:20%;
-     height:550px;
-   
-    
-    
+
+.social-links i.fab{
+
+    font-size: 20px;
+    padding: 3%;
+    background-color: none;
+    cursor: pointer;
+    margin: 2%;
+    border: 2px solid #9a9a7f;
+    color: #9a9a7f;
+    border-radius: 80%;
 }
+
+.social-links i.fab:hover{
+    cursor: pointer;  
+    border: 2px solid #211f1f;
+    color: #3a3737;
+  }
+
 .rectangle{
     position:absolute;
     left: 48%;
@@ -1114,14 +1153,8 @@ margin-left: 12%;
 
 }
 @media(max-width:767px){
-    .map{
-        margin-left: 10px;
-        margin-top:10%;
-        min-height: 100%;
-        width: 100%;
-       
    
-      }
+
 
       .slide-logo{
 
@@ -1305,6 +1338,8 @@ margin-left: 12%;
     
 }
 
+
+
 @media (max-width:854px){
    
     
@@ -1313,9 +1348,11 @@ margin-left: 12%;
         display: block;
     }
 .image img{
-    width: 40%;
+    width: 50%;
     height: 10%;
 }
+
+
     
     ul{
         position: absolute;
@@ -1517,7 +1554,8 @@ margin-left: 12%;
     .rectangle{
         width: 70%;
         margin-top:  20px; 
-        display: none;
+       display: none;
+       
     }
 
     .slide-logo{
@@ -1543,7 +1581,7 @@ margin-left: 12%;
       }
       .service-card{
         margin-top: 30%;
-        height: 460px;
+        height: 490px;
         width: 230px;
         
       }
@@ -1557,10 +1595,11 @@ margin-left: 12%;
        }
        .service-card a{
         font-size: 10px;
+        border-radius: 20px;
        }
 
        .bx{
-        margin-top: 10%;
+        margin-top: 15%;
        }
        .bx p{
         font-size: 14px;
@@ -1582,20 +1621,20 @@ margin-left: 12%;
       
      .fix{
         height: 300px;
+        margin-top: 10%;
         
      }
 
      .image img{
-        width: 40%;
+        width: 50%;
         height:70%;
         display: inline;
-        margin-top: 0%;
+        margin-top: 10%;
+        
     
     }
 
-    .map{
-        height: auto;
-    }
+   
 
     .services-cont{
 
@@ -1616,6 +1655,63 @@ margin-left: 12%;
         margin-top: 11%;
     
     }
+
+    /*contact section*/
+
+    .contair{
+    
+        width: 60%;
+        height: 620px;
+        margin-left: 20%;
+        
+    }
+    .contair h1{
+    
+        font-size: 27px;
+        
+    }
      
+    .contair p{
+    
+        font-size: 14px;
+        
+    }
+
+    .map iframe{
+
+       width: 60%;
+       margin-top: 20px;
+       margin-left: 20%;
+      
+      
+       
+    
+    }
+
+    .footer{
+        background-color: #5a5852;
+        padding: 70px 0;
+       height: inherit;
+       margin-top:inherit;
+      
+    
+       
+    }
+
+    .social-links i.fab{
+
+        font-size: 18px;
+      
+    }
+    .contact-form i.fa{
+        font-size: 18px;
+        
+    
+    }
+    .about-content p{
+       margin-top: 10%;
+      }
+
+   
    
 }
