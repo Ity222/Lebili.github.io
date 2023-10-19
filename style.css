@@ -67,6 +67,7 @@ nav{
     height: 150px;
     width: 100%;
     top: 0%;
+    padding: 0px 5px;
     box-shadow: 0 5px 5px rgb(206, 161, 26);
     z-index: 100000;
     
@@ -77,11 +78,13 @@ nav{
 nav ul{
     float: right;
     margin-right: 150px;
+    margin-top: -10px;
     
  
     
 }
 nav ul li{
+   
     position: relative;
     display: inline-block;
     line-height: 80px;
@@ -251,7 +254,7 @@ font-size: 40px;
 .rectangle{
     position:absolute;
     left: 48%;
-    top: 50%;
+    top: 48%;
     transform: translate(-50%,-50%) skew(15deg);
     width: 730px;
     height: 48%;
@@ -302,10 +305,10 @@ font-size: 40px;
 
 
 .fix{
-    height: 350px;
+    height: 370px;
     width: 100%;
     object-fit: cover;
-    margin-top: 12%;
+    margin-top: 10%;
   
 
 }
@@ -333,7 +336,7 @@ font-size: 40px;
     
     height :140px;
     margin-top: 10px;
-    margin-right: 210px;
+    margin-right: 410px;
     width: 260px;
     top: 10px;
     cursor: pointer;
@@ -1158,7 +1161,11 @@ margin-left: 12%;
     
 
 
+
 }
+
+
+
 @media(max-width:767px){
    
 
@@ -1272,6 +1279,8 @@ margin-left: 12%;
         padding-left: 50px;
         
     }
+
+    
     
     .lo{
     
@@ -1288,14 +1297,11 @@ margin-left: 12%;
         font-size: 1px;
     }
     .image img{
-        width: 30%;
+        width: 32%;
         height:100%;
         display: inline;
         margin-top: 0%;
-       
-    
-       
-    
+
     }
     
 
@@ -1324,28 +1330,243 @@ margin-left: 12%;
      }
 }
 
-@media(max-width:1145px){
+@media(max-width:1000px){
     .rectangle{
-      margin-top: 0%;
+      margin-top: -3%;
+      width: 70%;
+      height: 45%;
     }
+
+    .slide-logo{
+        margin-left: 25%;
+        width: 50%;
+        top: 0%;
+        
+    }
+
+   
+  
+
+    .card2{
+        width: 270px;
+        height:500px;
+        margin-right: -30%;
+        margin-top: 15%;
+    }
+
+
+    .card2 h2{
+        font-size: 25px;
+    }
+    .card2 p{
+        font-size: 15px;
+    }
+
+    .card2 a{
+
+    font-size: 10px;
+    size: 10%;
+    margin-left: 10%;
+    
+    }
+
+    .map iframe{
+
+        margin-left: 59%;
+       width: 40%;
+       margin-top: -4000px;
+       height: 500px;
+      
+       
+    
+    }
+
+    
+    
+    /*end of card 2*/
+
+    /*card3*/
+    .card3{
+        width: 290px;
+        height:auto;
+        margin-left: 40%;
+        margin-top: 8%;
+    }
+
+    .card3 h2{
+        font-size: 25px;
+    }
+    .card3 p{
+        font-size: 15px;
+        
+    }
+
+    .contair{
+
+        width: 400px;
+    }
+
   }
-@media(max-width:1224px){
-  .rectangle{
-    margin-top: 10%;
-  }
+
+
+
+
+
+
+
+/*table 854*/
+
+
+
+/*tablet
+
+@media (min-width:853px){
+   
+    
+
+   
 }
 
-.nav ul li
-{
-    margin: 0 8px;
+.rectangle{
+
+    margin-top: -5%;
+    width: 70%;
 }
 
 .slide-logo{
-    margin-left: 25%;
+    width: 50%;
     
 }
 
+.crad2 h2{
+    font: 10px;
+}
 
+.text1{
+    font-size: 30px;
+}
+
+nav ul li{
+  
+   position: relative;
+    line-height: 30px;
+    object-fit:cover ;
+    padding: 0px 0px 30px;
+    top: -70px;
+    
+}
+}
+
+
+
+
+
+
+/*table 854
+
+@media (min-width:854px){
+
+    nav ul {
+        margin-top: -10%;
+        margin-right: 4%;
+        
+    }
+
+    .rectangle{
+        top: 30%;
+        width: 70%;
+        height: 40%;
+    }
+
+  .slide-logo{
+    width: 50%;
+    margin-top: -45%;
+  }
+
+  /*card2
+
+    .card2{
+        height: auto;
+        margin-right: 5%;
+        width: auto;
+    }
+  .card2 h2{
+    
+    color: #bab533;
+    margin-top:10%;
+    font-size: 30px; 
+
+ }
+
+ .card2 p{
+    font-size: 15px;
+}
+/*card3
+
+.card3{
+    height: auto;
+    width: auto;
+    
+}
+.card3 h2{
+
+color: #bab533;
+font-size: 30px; 
+
+}
+
+.card3 p{
+font-size: 15px;
+}
+
+
+
+
+
+
+}
+*/
+@media (max-width:1230px){
+
+.rectangle{
+      margin-top: -3%;
+      width: 70%;
+      height: 45%;
+    }
+
+    .slide-logo{
+        margin-left: 25%;
+        width: 50%;
+        top: 0%; 
+    }
+
+    nav {
+        padding :0 20px;
+    }
+
+    .ul{
+        display: inline;
+    }
+
+    nav ul li a {
+        display:inline;
+    margin-top: -20px;
+    right: 20%;
+    }
+}
+
+@media (max-width:545px){
+
+    .image img{
+        width: 50%;
+        height:70%;
+        display: inline;
+        margin-top: 5%;
+
+    }
+
+
+}
 
 @media (max-width:854px){
    
@@ -1353,14 +1574,12 @@ margin-left: 12%;
     
     .checkbtn{
         display: block;
+     margin-top: 360px;
+     
+
+     
     }
-.image img{
-    width: 50%;
-    height: 10%;
-}
 
-
-    
     ul{
         position: absolute;
         width: 100%;
@@ -1370,7 +1589,7 @@ margin-left: 12%;
         top:150px;
         left: -100%;
         text-align: center;
-        transition: all .5s;
+        transition: all .3s;
         
     }
 
@@ -1382,18 +1601,22 @@ margin-left: 12%;
         line-height: 30px;
         object-fit:cover ;
         padding: 10px 30px;
+        top: -0%;
+        text-align: center;
+        left:0%;
         
     }
 
     nav ul li a{
         font-size :20px;
+        margin-top: 10%;
 
 
     }
 
-    a:hover ,a.active{
+    .nav ul li a:hover ,a.active{
         background:none ;
-        color: blanchedalmond;
+        color: rgb(255, 250, 205);
     }
 
     #check:checked ~ ul{
@@ -1401,10 +1624,6 @@ margin-left: 12%;
         
       
     }
-
-   
-   
-   
     .about-box1{
         height: 450px;
         width: 40%;
@@ -1472,7 +1691,7 @@ margin-left: 12%;
     .card2{
         width: 270px;
         height:500px;
-        margin-right: 0%;
+        margin-right: -30%;
         margin-top: 15%;
     }
 
@@ -1500,7 +1719,7 @@ margin-left: 12%;
     .card3{
         width: 270px;
         height:500px;
-        margin-right: 20%;
+        margin-left: 40%;
         margin-top: 8%;
     }
 
@@ -1567,6 +1786,8 @@ margin-left: 12%;
        
     }
 
+    
+
     .slide-logo{
 
         /* mix-blend-mode: multiply;*/
@@ -1578,14 +1799,6 @@ margin-left: 12%;
          display: none;
      
      }
-
-     .swiper {
-        width: 70%;
-        padding-top: 50px;
-        padding-bottom: 50px;
-       
-      }
-
       .services{
         margin-top: auto;
       }
@@ -1635,13 +1848,12 @@ margin-left: 12%;
         
      }
 
-     .image img{
-        width: 50%;
-        height:70%;
-        display: inline;
-        margin-top: 0%;
-        
+   
     
+    }
+/*tablet pic*/
+    .checkbtn{
+        margin-top: -20%;
     }
 
    
@@ -1703,6 +1915,7 @@ margin-left: 12%;
         padding: 70px 0;
        height: inherit;
        margin-top:inherit;
+       
       
     
        
