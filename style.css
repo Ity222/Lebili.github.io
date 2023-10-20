@@ -1845,7 +1845,7 @@ nav ul li{
     .footer{
         background-color: #5a5852;
         padding: 70px 0;
-       height: inherit;
+       height: auto;
        margin-top:inherit;
        
       
@@ -1876,7 +1876,7 @@ nav ul li{
         position: relative;
     }
 
-      .col-footer ul li a{
+      .col-footer ul li {
         font-size: 8px; 
         color: #0d0d0d;
         text-decoration: none;
@@ -1885,5 +1885,7 @@ nav ul li{
         display: flex;
         transition: all 0.3s ease;
      }
+
+     
    
 }
