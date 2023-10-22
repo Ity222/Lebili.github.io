@@ -501,7 +501,7 @@ ul{
 
 }
 
-.col-footer ul li a{
+.col-footer .list li a{
    font-size: 16px; 
    color: #fff;
    text-decoration: none;
@@ -511,8 +511,8 @@ ul{
    transition: all 0.3s ease;
 }
 
-.col-footer ul li a:hover{
-columns: white;
+.col-footer .list li a:hover{
+columns: rgb(77, 76, 59);
 padding-left: 8px;
 }
 
@@ -1243,6 +1243,7 @@ margin-left: 12%;
         
     }
 
+
     .col-footer li{
         font-size: 16px; 
         color: #fff;
@@ -1888,12 +1889,11 @@ nav ul li{
         position: relative;
     }
 
-      
-    .col-footer ul a{
-        font-size: 16px; 
+    .col-footer .list li a{
+        font-size: 10px; 
         color: #fff;
         text-decoration: none;
-       
+        font-weight: 300;
         color: rgb(246, 242, 235);
         display: block;
         transition: all 0.3s ease;
