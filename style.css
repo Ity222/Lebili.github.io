@@ -257,17 +257,15 @@ font-size: 40px;
 .rectangle{
     position:absolute;
     left: 48%;
-    top: 48%;
+    top: 47%;
     transform: translate(-50%,-50%) skew(15deg);
     width: 730px;
-    height: 48%;
+    height: 47%;
     background: #ffffff;
     opacity:0.8;
     border-radius: 5px;
     border: 1px solid rgba(255,255,255,0.18) ;
     box-shadow: 0 8px 32px 0 rgba(0,0,0.37) ;
-   
-
 
 }
 
@@ -1222,16 +1220,7 @@ margin-left: 12%;
 
     }
 
-    .col-footer ul li a{
-        font-size: 16px; 
-        color: #fff;
-        text-decoration: none;
-        font-weight: 300;
-        color: rgb(246, 242, 235);
-        display: block;
-        transition: all 0.3s ease;
-        display: block;
-     }
+    
         .content{
             width: 50%;
         }
@@ -1368,11 +1357,7 @@ margin-left: 12%;
 }
 
 @media(max-width:1000px){
-    .rectangle{
-      margin-top: -3%;
-      width: 70%;
-      height: 45%;
-    }
+    
 
     .slide-logo{
         margin-left: 25%;
@@ -1533,14 +1518,16 @@ nav ul li{
          width: 45%;
          height: 60%;
          border-radius: 2px;
-         margin-top: -35%;
+         margin-top: -32%;
         
      
      }
     .rectangle{
+     
         width: 60%;
         height:28% ;
-        margin-top:  -89px; 
+        margin-top: -72px;
+        
        
        
     }
