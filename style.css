@@ -1479,7 +1479,7 @@ nav ul li{
         width: 50%;
         height:70%;
         display: inline;
-        margin-top: 2%;
+        margin-top: 5%;
 
     }
 
@@ -1580,7 +1580,7 @@ nav ul li{
     }
 
     #check:checked ~ ul{
-        left:0;
+        left:15%;
         
       
     }
