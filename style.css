@@ -1519,7 +1519,9 @@ nav ul li{
 
 
   
-
+nav{
+    width: 100%;
+}
     nav ul li{
         display: block;
        position: relative;
@@ -1528,7 +1530,7 @@ nav ul li{
         top:80%;
         text-align: center;
         left:0%;
-        margin-bottom: %
+       
         
     }
 
