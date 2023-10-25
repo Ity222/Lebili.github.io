@@ -1236,49 +1236,6 @@ margin-left: 12%;
 /****************/
 
 
-@media(max-width:574px){
-    .col-footer{
-    width: 100%;
-    transition: all 0.3s ease;
-        
-    }
-
-
-    .col-footer li{
-        font-size: 16px; 
-        color: #fff;
-        text-decoration: none;
-        font-weight: 300;
-        color: rgb(246, 242, 235);
-        display: block;
-        transition: all 0.3s ease;
-     }
-
-    .content{
-        width: 100%;
-    }
-
-    .main-box{
-        height: 450px;
-        width: 30%;
-        background: #756e4c;
-        margin: 20px auto;
-        margin-left: 10%;
-        margin-top:12%;
-    
-        
-    }
-    
-    
-   
-    .lo{
-    
-        width: 50%;
-        height: 100%;
-     }
-    
-   
-}
 
 /****************/
 
@@ -1323,6 +1280,11 @@ margin-left: 12%;
 
      
     }
+    .checkbtn{
+        margin-top: -100px;
+    }
+
+
     .image img{
         width: 32%;
         height:100%;
@@ -1477,9 +1439,9 @@ nav ul li{
 
     .image img{
         width: 50%;
-        height:70%;
+        height:40%;
         display: inline;
-        margin-top: 5%;
+        margin-top: 3%;
 
     }
 
@@ -1505,6 +1467,7 @@ nav ul li{
         display: none;
     }
 
+   
 
     
 }
@@ -1545,8 +1508,9 @@ nav ul li{
         height:220px;
         background: rgb(134, 124, 17);
         box-shadow: 0 8px 32px 0 rgba(0,0,0.37) ;
-        top:150px;
+        top:140px;
         left: -100%;
+        border-radius: 10px;
         text-align: center;
         transition: all .3s;
         
@@ -1564,9 +1528,18 @@ nav ul li{
         top:80%;
         text-align: center;
         left:0%;
+        margin-bottom: %
         
     }
 
+    /*nav ul li:hover{
+        background: #000;
+        width: 50%;
+        justify-content: center;
+        margin-left: 20%;
+        transition: all .1s;
+    }
+*/
     nav ul li a{
         font-size :20px;
         margin-top: 10%;
@@ -1580,7 +1553,7 @@ nav ul li{
     }
 
     #check:checked ~ ul{
-        left:15%;
+        left:1%;
         
       
     }
@@ -1797,9 +1770,7 @@ nav ul li{
     
     
   /*tablet pic*/
-    .checkbtn{
-        margin-top: -15%;
-    }
+   
 
    
 
@@ -1901,3 +1872,31 @@ nav ul li{
      
    
 }
+
+@media(max-width:464px){
+
+
+ #check:checked ~ ul{
+        left:1%;
+        top:27%
+        
+      
+    }
+
+    .contair{
+    
+        
+        width: 75%; 
+        height: 10%;
+    
+        
+    }
+    .contair p{
+    
+        
+       font-size: 10px;
+    
+        
+    }
+}
+
