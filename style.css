@@ -337,7 +337,7 @@ font-size: 40px;
     
     height :140px;
     margin-top: 10px;
-    margin-right: 410px;
+    margin-right: 450px;
     width: 260px;
     top: 10px;
     cursor: pointer;
@@ -753,7 +753,7 @@ text-align: center;
     width: 430px;
     margin: 40px;
     height: auto;
-     margin-top: 3%;
+     margin-top: 10%;
      margin-right: -10%;
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
@@ -1047,7 +1047,6 @@ text-align: center;
     color: #000;
     margin-bottom: 35px;
    
-
 }
 
 .summary{
@@ -1056,8 +1055,6 @@ text-align: center;
     color: white;
     font-size:24px;
     background: #3c3b3a;
- 
-  
    margin-bottom: 0%;
 }
 
@@ -1065,7 +1062,8 @@ text-align: center;
 margin-top: 10%;
 font-weight: bold;
 font-size:26px;
-margin-left: 12%; 
+margin-left: 12%;
+text-align: center; 
 }
 .about{
 
@@ -1693,7 +1691,7 @@ nav{
 
     .log{
         margin-top: -170px;
-        left: 20px;
+        left: 10px;
     }
 
     
